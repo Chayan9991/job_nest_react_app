@@ -1,0 +1,62 @@
+[
+  {
+
+    "question": "What is JobNest?",
+    "answer": "JobNest is a modern job portal that connects job seekers with employers. Users can search and apply for jobs, while companies can post listings, manage applicants, and find top talent — all in one streamlined platform."
+  },
+  {
+
+    "question": "How do I post a job as an employer?",
+    "answer": "After logging in as an employer, go to the 'Post a Job' section from the dashboard. Fill in the required job details such as title, description, location, and category, then submit to publish your listing."
+  },
+  {
+
+    "question": "How can I search for jobs?",
+    "answer": "Use the search bar on the homepage or the job listings page to find jobs by title, company, location, or category. You can also use filters to narrow down your search results."
+  },
+  {
+
+    "question": "How do I apply for a job?",
+    "answer": "Click on a job listing to view its details, then click 'Apply Now'. You may be prompted to upload your resume, write a cover letter, or fill out an application form."
+  },
+  {
+
+    "question": "Can I save jobs to apply later?",
+    "answer": "Yes, simply click the 'Save Job' button on any listing. You can view your saved jobs at any time from your user dashboard under the 'Saved Jobs' tab."
+  },
+  {
+
+    "question": "How do I track the status of my job applications?",
+    "answer": "Navigate to the 'My Applications' section in your dashboard. You'll see all your submitted applications along with real-time status updates from employers."
+  },
+  {
+
+    "question": "Is creating an account free?",
+    "answer": "Yes, creating an account on JobNest is completely free for both job seekers and employers. Premium features may be offered in the future."
+  },
+  {
+
+    "question": "Can I edit or delete my job listing?",
+    "answer": "Yes, employers can manage their job listings from the 'My Listings' section. You can edit job details or delete the listing entirely."
+  },
+  {
+
+    "question": "How secure is my data on JobNest?",
+    "answer": "We take data privacy seriously. All user data is encrypted, and authentication is secured using industry best practices."
+  },
+  {
+
+    "question": "Do you support remote jobs?",
+    "answer": "Yes, many companies post remote opportunities. You can filter by 'Remote' jobs using the search filters."
+  },
+  {
+
+    "question": "How can I contact a company after applying?",
+    "answer": "Once you apply, communication will typically be initiated by the employer. Some listings may also include direct contact details if the employer allows it."
+  },
+  {
+
+    "question": "Can I upload multiple resumes or cover letters?",
+    "answer": "Currently, each user can upload one resume and one cover letter. However, we’re working on supporting multiple versions for future flexibility."
+  }
+]
