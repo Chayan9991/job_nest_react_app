@@ -8,6 +8,7 @@ import {BriefcaseIcon, DoorClosed, DoorOpen, MapPinIcon} from "lucide-react";
 import MDEditor from "@uiw/react-md-editor";
 import {Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue} from "@/components/ui/select.jsx";
 import ApplyJobDrawer from "@/components/apply_job.jsx";
+import ApplicationCard from "@/components/application-card.jsx";
 
 const Job = () => {
     const { id } = useParams();
@@ -63,13 +64,13 @@ const Job = () => {
                 </div>
                 <div className="flex gap-2 items-center">
                     {job?.isOpen ? (
-                        <>
+                        <div className='text-green-500'>
                             <DoorOpen /> Open
-                        </>
+                        </div>
                     ) : (
-                        <>
+                        <div className='text-red-500'>
                             <DoorClosed /> Closed
-                        </>
+                        </div>
                     )}
                 </div>
             </div>
@@ -110,6 +111,18 @@ const Job = () => {
                     job?.recruiter_id !== user?.id && <ApplyJobDrawer job={job} user={user} fetchJob={fnJob} applied={job?.applications?.find((ap)=>ap.candidate_id === user.id)}/>
                 }
             </div>
+            {
+                job?.applications?.length > 0 && job?.recruiter_id === user?.id &&(
+                    <div className="flex flex-col gap-2">
+                        <h2 className="text-2xl sm:text-3xl font-bold">Applications</h2>
+                        {
+                            job?.applications.map((application)=>{
+                                return <ApplicationCard key={application.id} application={application} />
+                            })
+                        }
+                    </div>
+                )
+            }
         </div>
 
     );

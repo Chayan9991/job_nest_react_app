@@ -56,7 +56,7 @@ export const router = createBrowserRouter([
                 ),
             },
             {
-                path: 'post-jobs',
+                path: 'post-job',
                 element: (
                     <ProtectedRoute>
                         <PostJobs/>
